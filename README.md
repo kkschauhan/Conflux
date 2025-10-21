@@ -109,8 +109,8 @@ conflux/
 
 ## 🧠 Model Overview
 **Public Goods Game (PGG).** Each round:
-- Players \(n\) receive endowment \(w\) and choose \(c_i \in [0,w]\).
-- Total contributions \(C = \sum_i c_i\) are multiplied by MPCR \(a\) and redistributed.
+- Players \(n\) receive endowment \(w\) and choose \( \(c_{i}\) ∈ [0,w]\).
+- Total contributions \(C = \sum_{i=1}^n  \(c_{i}\\) are multiplied by MPCR and redistributed.
 - **Mechanisms** add incentives:
   - **Tax** on low contributors (below threshold \( \tau \))
   - **Reward** for high contributors (above threshold \( \rho \))
