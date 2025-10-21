@@ -1,0 +1,2 @@
+import { NextResponse } from 'next/server'; import { ensemble, Config } from '@/lib/sim';
+export async function POST(req: Request){ const cfg: Config = await req.json(); const { df, ci } = ensemble(cfg, 10); return NextResponse.json({ df, ci }); }

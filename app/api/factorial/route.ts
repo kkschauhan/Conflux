@@ -1,0 +1,2 @@
+import { NextResponse } from 'next/server'; import { factorialServer, Config } from '@/lib/sim';
+export async function POST(req: Request){ const { base, taxRates, rewardRates, punishFlags } = await req.json(); const data = factorialServer(base as Config, taxRates, rewardRates, punishFlags, 10); return NextResponse.json({ data }); }
