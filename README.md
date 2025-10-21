@@ -1,4 +1,5 @@
-# **Conflux** — *Small-worlds create local confluences whose behaviors spread.*
+# **Conflux** 
+*Small-worlds create local confluences whose behaviors spread.*
 
 > An interactive lab for **public-goods dynamics**.  
 > Simulate networks, tune **tax / reward / punishment**, add **noise**, and watch cooperation emerge (or collapse) in real time.  
