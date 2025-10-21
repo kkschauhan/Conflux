@@ -52,9 +52,8 @@
 
 ---
 
-## 🖼 Screenshots
+## 🖼 Snapshots
 
-> Live captures from the app (stored in `preview/`).
 
 | Home (Simulator) | Factorial (Curve) |
 |---|---|
