@@ -33,8 +33,24 @@ export default function Page(){
   const smallWorld = cfg.topology?.type==='smallworld';
 
   // Compare Topologies (same cfg but flip topology)
-  const cfgWM = { ...cfg, topology: { ...(cfg.topology||{k:4,p:0.1,type:'wellmixed'}), type:'wellmixed' } };
-  const cfgSW = { ...cfg, topology: { ...(cfg.topology||{k:4,p:0.1,type:'wellmixed'}), type:'smallworld' } };
+  // const cfgWM = { ...cfg, topology: { ...(cfg.topology||{k:4,p:0.1,type:'wellmixed'}), type:'wellmixed' } };
+  // const cfgSW = { ...cfg, topology: { ...(cfg.topology||{k:4,p:0.1,type:'wellmixed'}), type:'smallworld' } };
+  const cfgWM: Config = {
+  ...cfg,
+  topology: {
+    ...(cfg.topology ?? { k: 4, p: 0.1, type: 'wellmixed' as const }),
+    type: 'wellmixed' as const,
+  },
+};
+
+const cfgSW: Config = {
+  ...cfg,
+  topology: {
+    ...(cfg.topology ?? { k: 4, p: 0.1, type: 'wellmixed' as const }),
+    type: 'smallworld' as const,
+  },
+};
+
   const resWM = useMemo(()=> simulate(cfgWM), [cfgWM]);
   const resSW = useMemo(()=> simulate(cfgSW), [cfgSW]);
   const compareSeries = resWM.historyC.map((C,i)=> ({
