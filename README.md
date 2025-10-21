@@ -14,8 +14,7 @@
 
 ---
 
-## 🔗 Conflux — Live
-**Try it now:** https://tinyurl.com/conflux
+## 🔗 CHeck it out live [https://tinyurl.com/conflux]
 
 - **Home** — interactive simulator (sliders/toggles)
 - **Experiments** — factorial sweeps with **line charts**, **heatmap**, and **CSV export**
