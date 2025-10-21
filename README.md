@@ -9,7 +9,7 @@
   <a href="https://nextjs.org/"><img alt="Next.js" src="https://img.shields.io/badge/Next.js-14-black?logo=nextdotjs"></a>
   <a href="https://www.typescriptlang.org/"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-blue?logo=typescript"></a>
   <a href="https://tailwindcss.com/"><img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-3-38BDF8?logo=tailwindcss&logoColor=white"></a>
-  <a href="https://tinyurl.com/conflux"><img alt="Conflux Live" src="https://img.shields.io/badge/Live-Conflux-10B981?logo=vercel&logoColor=white"></a>
+  <a href="https://tinyurl.com/conflux-live"><img alt="Conflux Live" src="https://img.shields.io/badge/Live-Conflux-10B981?logo=vercel&logoColor=white"></a>
 </p>
 
 ---
